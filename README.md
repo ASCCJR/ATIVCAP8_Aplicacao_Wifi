@@ -42,7 +42,7 @@ Este projeto implementa um servidor HTTP embarcado no Raspberry Pi Pico W, que f
 4. **Controle**:
    - Tecla 'd' no terminal para desligar o Access Point
 
-## 🚀 Como Usar
+## Como Usar
 1. Conecte o hardware conforme a pinagem especificada
 2. Compile e carregue o firmware no Pico W
 3. Conecte-se à rede `picow_test` (senha: `password`)
@@ -63,17 +63,6 @@ Este projeto implementa um servidor HTTP embarcado no Raspberry Pi Pico W, que f
 - O LED pisca em intervalos de 300ms no modo emergência
 - O sistema usa LWIP para stack TCP/IP
 - O display OLED é atualizado via I2C a 400kHz
-
-## 💡 Melhorias Futuras
-- Adicionar temporizador para desligamento automático do buzzer
-- Implementar página web com CSS melhorado
-- Adicionar autenticação básica na interface web
-- Suporte para configuração via web (SSID/senha)
-
-## ⚠️ Limitações Conhecidas
-- Suporta apenas um cliente HTTP por vez
-- Não possui tratamento avançado de erros de conexão
-- Interface web básica sem persistência de estado
 
 ## Propósito
 
